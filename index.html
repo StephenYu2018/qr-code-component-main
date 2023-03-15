@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-[15px]">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- TailwindCSS output stylesheet -->
-  <link href="dist/styles.css" type="text/css" rel="stylesheet">
+  <link href="./dist/styles.css" type="text/css" rel="stylesheet">
 
   <!-- Google fonts: Outfit, weights: [400, 700] -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,12 +19,15 @@
 <body class="bg-light-gray flex flex-col justify-around items-center h-screen">
 
   <main>
-    <article class="bg-white drop-shadow-2xl flex flex-col items-center max-h-fit w-64 rounded-xl p-3">
-      <img src="./images/image-qr-code.png" alt="QR code to frontendmentor.io" class="border-separate rounded-md w-64 h-[14rem]">
+    <article class="bg-white drop-shadow-2xl flex flex-col items-center max-w-[320px] rounded-xl p-4">
+      <img src="./images/image-qr-code.png" 
+        alt="QR code to frontendmentor.io"
+        class="rounded-md w-[100%] h-auto"
+      >
       
-      <div class="px-3 pb-6">
-        <h1 class="text-dark-blue font-outfit font-bold text-[18px] text-center my-4 leading-snug">Improve your front-end skills by building projects</h1>
-        <p class="text-grayish-blue font-outfit font-normal text-[15px] text-center leading-snug">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      <div class="px-4 pt-3 pb-7">
+        <h1 class="text-dark-blue font-outfit font-bold text-2xl text-center my-4 leading-snug">Improve your front-end skills by building projects</h1>
+        <p class="text-grayish-blue font-outfit font-normal text-base text-center leading-snug">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
     </article>
   </main>
