@@ -84,6 +84,15 @@ What I was really looking for was `rounded-xl`!
 
 Oh well. I'll get better at reading the syntax over time.
 
+#### After Submitting
+
+It seems that they were a few more things I forgot to consider. One of them was that my component size 
+was much smaller than the original design. I should've paid more attention to the screen sizes for both
+desktop & mobile.
+
+Another big mistake was not considering accessibility. I specifically forgot to add alt text to the image 
+and to explicitly state landmarks for acccessibility devices to work with.
+
 ## Author
 
 Frontend Mentor - [@StephenYu2018](https://www.frontendmentor.io/profile/StephenYu2018)
