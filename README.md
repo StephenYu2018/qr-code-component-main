@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://stephenyu2018.github.io/qr-code-component-main/)
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-image-sizing-6YwBHpbAUS)
+- [Live Site](https://stephenyu2018.github.io/qr-code-component-main/)
 
 ## My process
 
